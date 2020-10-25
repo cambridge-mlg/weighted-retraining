@@ -1,0 +1,25 @@
+name: weighted-retraining
+channels:
+  - rdkit
+  - pytorch
+  - defaults
+dependencies:
+  - matplotlib=3.3.*
+  - numpy=1.*
+  - python=3.7.*
+  - pytorch=1.6.*
+  - torchvision=0.7.*
+  - rdkit=2020.03.*
+  - scikit-learn=0.23.*
+  - scipy=1.5.*
+  - tensorboard=2.2.*
+  - tensorflow-gpu=2.2.*
+  - Keras=2.4.*
+  - networkx=2.5
+  - tqdm
+  - nltk
+  - pip
+  - pip:
+    - gpflow==2.1.*
+    - pytorch-lightning==1.0.*
+    - tensorflow-probability==0.10.1
