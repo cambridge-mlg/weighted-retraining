@@ -3,7 +3,7 @@
 # Sample-Efficient Optimization in the Latent Space of Deep Generative Models via Weighted Retraining
 
 [![Paper](http://img.shields.io/badge/paper-arxiv.2006.09191-B31B1B.svg)](https://arxiv.org/abs/2006.09191)
-[![Conference](http://img.shields.io/badge/NeurIPS-2020-4b44ce.svg)](https://arxiv.org/abs/2006.09191)
+[![Conference](http://img.shields.io/badge/NeurIPS-2020-4b44ce.svg)](https://proceedings.neurips.cc//paper/2020/hash/81e3225c6ad49623167a4309eb4b2e75-Abstract.html)
 ![GitHub](https://img.shields.io/github/license/cambridge-mlg/weighted-retraining)
 
 <img src="assets/summary-img.png"
