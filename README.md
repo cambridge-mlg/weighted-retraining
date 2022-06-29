@@ -29,7 +29,7 @@ but does not use exclusively pytorch lightning
 (one of our models is in tensorflow).
 
 Feel free to contact us if you have any questions or issues with the code.
-Our emails can be found in the paper; alternatively you can file a pull request on this repo.
+Our emails can be found in the paper; alternatively you can file a pull request or raise an issue on this repo.
 
 ## How to run
 
