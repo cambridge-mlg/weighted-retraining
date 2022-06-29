@@ -99,7 +99,7 @@ class WeightedNumpyDataset(pl.LightningDataModule):
             assert len(x_new) == len(prop_new)
 
             # Replace data (assuming that number of samples taken is less than the dataset size)
-            self.train_data = np.concatenate(
+            self.data_train = np.concatenate(
                 [self.data_train[len(x_new) :], x_new], axis=0
             )
             self.prop_train = np.concatenate(
