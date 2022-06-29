@@ -31,6 +31,15 @@ but does not use exclusively pytorch lightning
 Feel free to contact us if you have any questions or issues with the code.
 Our emails can be found in the paper; alternatively you can file a pull request or raise an issue on this repo.
 
+## Announcements
+
+- 2022-06-29: Fixed a small bug where the dataset was not updated correctly for
+  the FB-VAE baseline. This likely means that its performance was understated
+  in our paper. We have not re-run any of the experiments because we don't
+  believe it changes any conclusions other than the relative performance of the
+  baselines. Thanks [onurboyar](https://github.com/onurboyar) for finding this
+  bug!
+
 ## How to run
 
 ### Install Dependencies
