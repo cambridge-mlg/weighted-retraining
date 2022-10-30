@@ -33,6 +33,10 @@ Our emails can be found in the paper; alternatively you can file a pull request 
 
 ## Announcements
 
+- 2022-10-17: Issue raised where the decoding loop can hang for long periods of
+  time without outputting anything. This seems to be a fundamental limitation
+  of the JT-VAE, so for now it is not being fixed. If you encounter this issue,
+  a potential workaround can be found [here](https://github.com/cambridge-mlg/weighted-retraining/issues/7).
 - 2022-06-29: Fixed a small bug where the dataset was not updated correctly for
   the FB-VAE baseline. This likely means that its performance was understated
   in our paper. We have not re-run any of the experiments because we don't
